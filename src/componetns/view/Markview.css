@@ -1,0 +1,76 @@
+/* Main container */
+.markview-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #babadb;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.markview-container h2 {
+    color: #2d3748;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error-message {
+    color: #d9534f;
+    background-color: #a08789;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Table styling */
+.table-container {
+    overflow-x: auto; /* Ensure table scrolls on smaller screens */
+}
+
+.marks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.marks-table th,
+.marks-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #a7b4c5;
+}
+
+.marks-table th {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.marks-table td {
+    background-color: #ffffff;
+    color: #4a5568;
+}
+
+.marks-table tr:nth-child(even) td {
+    background-color: #7a8d99;
+}
+
+/* Table row hover effect */
+.marks-table tr:hover td {
+    background-color: #95abc2;
+    transition: background-color 0.2s ease;
+}
+
+/* Student details title */
+.student-details-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2d3748;
+    font-size: 18px;
+}

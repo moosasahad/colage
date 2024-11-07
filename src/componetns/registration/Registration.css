@@ -1,0 +1,107 @@
+/* Registration.css */
+
+#dashboard-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main container styling */
+.maindiv {
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width to center-align */
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 5px;
+}
+
+/* Title styling */
+#subject-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#teacher-name {
+    font-size: 18px;
+    color: #ccc; /* Lighter text color for subheading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form label and input styling */
+.form-label {
+    font-weight: 600;
+    color: #fff; /* White text for labels */
+    text-align: left; /* Align labels to the left */
+}
+
+.form-control,
+.form-select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%; /* Make all inputs the same width */
+    transition: border-color 0.3s ease;
+    background-color: #ffffff; /* Dark background for input fields */
+    color: #000000; /* White text for contrast */
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success { background-color: #28a745; }
+.btn-success:hover { background-color: #218838; }
+
+.btn-secondary { background-color: #6c757d; }
+.btn-secondary:hover { background-color: #5a6268; }
+
+.btn-info { background-color: #17a2b8; }
+.btn-info:hover { background-color: #138496; }
+
+.btn-danger { background-color: #dc3545; }
+.btn-danger:hover { background-color: #c82333; }
+
+#submission-message {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #28a745;
+    text-align: center;
+}
+
+/* Align buttons in a single row */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
