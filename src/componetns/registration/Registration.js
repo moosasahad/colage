@@ -40,7 +40,7 @@ function Registration() {
     // Submit form data to the server
     const submitForm = async () => {
         try {
-            const response = await axios.post('http://localhost:4000/marke', {
+            const response = await axios.post('https://newbackendproject.onrender.com/marke', {
                 ...formData,
                 TeacherId: teacherId,
             });

@@ -11,7 +11,7 @@ function Markview() {
 
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:4000/allmarke/${TeacherId}`);
+        const response = await axios.get(`https://newbackendproject.onrender.com/allmarke/${TeacherId}`);
         setMarksData(response.data.details[0]?.student || []);
       } catch (err) {
         setError('Error fetching marks data');
