@@ -2,7 +2,7 @@
 
 #dashboard-page {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,18 +11,14 @@
     background-size: cover;
     background-position: center;
 }
-
 /* Main container styling */
 .maindiv {
     background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Fixed width to center-align */
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    gap: 5px;
+    
+}
+/* Main container styling */
+.mb-3{
+    padding: 8px;
 }
 
 /* Title styling */
@@ -57,7 +53,7 @@
     width: 100%; /* Make all inputs the same width */
     transition: border-color 0.3s ease;
     background-color: #ffffff; /* Dark background for input fields */
-    color: #000000; /* White text for contrast */
+    color: #fff; /* White text for contrast */
 }
 
 .form-control:focus,
