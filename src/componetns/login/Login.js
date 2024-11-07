@@ -14,8 +14,9 @@ function Login() {
     try {
       const response = await axios.post('https://newbackendproject.onrender.com/login', {
         username,
-        password,
+        password
       });
+      console.log("djfhkjdhfs");
 
       if (response.status === 200) {
         console.log("login");
@@ -23,7 +24,7 @@ function Login() {
         // Handle successful login (e.g., redirect or update UI)
         console.log('Login successful:', response.data);
         localStorage.setItem('id',response.data.id);
-        navigate('/r')
+        navigate('/Registration')
 
 
       }

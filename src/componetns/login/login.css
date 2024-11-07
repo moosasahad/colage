@@ -12,6 +12,10 @@
     width: 300px;
     height: auto;
     padding: 30px;
+    background-color: rgba(10, 10, 10, .9);
+    border-radius: 20px;
+    align-items: center;
+    
 
   }
   
@@ -25,6 +29,8 @@
   .form-label {
     font-weight: bold;
     color: #555;
+    
+    
   }
   
   .form-control {
@@ -54,4 +60,11 @@
     font-size: 14px;
     color: #d9534f;
   }
-  
+  .mb-3{
+    margin: 10px;
+    justify-content: center;
+  }
+.mb-3 input{
+    width: 100%;
+
+}

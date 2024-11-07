@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Markview.css';
+import { useNavigate } from 'react-router-dom';
 
 function Markview() {
   const [marksData, setMarksData] = useState([]);
   const [error, setError] = useState('');
+  const navigate = useNavigate()
 
   useEffect(() => {
     const TeacherId = localStorage.getItem('id');
@@ -25,9 +27,13 @@ function Markview() {
       setError('No teacher ID found in local storage');
     }
   }, []);
+  const backclick=()=>{
+    navigate('/Registration')
+  }
 
   return (
     <div className="markview-container">
+        <button className='backbutton' onClick={backclick}>Go Back</button>
       <h2>Mark View</h2>
       {error && <p className="error-message">{error}</p>}
       
