@@ -14,7 +14,14 @@
 /* Main container styling */
 .maindiv {
     background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
+    color: black;
     
+}
+h1,h2,h3,h4{
+    color: #ffffff;
+}
+.mb-3 label{
+    color: #ffffff;
 }
 /* Main container styling */
 .mb-3{
@@ -25,7 +32,7 @@
 #subject-title {
     font-size: 24px;
     font-weight: bold;
-    color: #fff; /* White text for contrast */
+      color: rgb(255, 255, 255); /* White text for contrast */
     text-align: center;
     margin-bottom: 10px;
 }
@@ -40,7 +47,7 @@
 /* Form label and input styling */
 .form-label {
     font-weight: 600;
-    color: #fff; /* White text for labels */
+      color: black; /* White text for labels */
     text-align: left; /* Align labels to the left */
 }
 
@@ -53,7 +60,7 @@
     width: 100%; /* Make all inputs the same width */
     transition: border-color 0.3s ease;
     background-color: #ffffff; /* Dark background for input fields */
-    color: #fff; /* White text for contrast */
+      color: black; /* White text for contrast */
 }
 
 .form-control:focus,
@@ -69,7 +76,7 @@ button {
     font-size: 16px;
     border: none;
     border-radius: 4px;
-    color: #fff;
+      color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
